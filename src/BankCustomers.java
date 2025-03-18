@@ -36,7 +36,6 @@ public class BankCustomers extends BankAccount{
         System.out.println("Account with number " + accountNumber + "not found");
         return null;
     }
-
     @Override
     public void calculateInterest() {
 
