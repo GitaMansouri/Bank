@@ -2,6 +2,10 @@ public class SavingAccount extends BankAccount{
     private final double interestRate = 0.03;
     double initialBalance;
 
+    public double getInterestRate() {
+        return interestRate;
+    }
+
     public SavingAccount(String accountNumber, String accountHolderName, double initialBalance){
         super(accountNumber,accountHolderName, initialBalance);
     }

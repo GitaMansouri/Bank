@@ -13,6 +13,10 @@ public abstract class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    public BankAccount(String account) {
+        accountNumber = "";
+    }
+
     public abstract void calculateInterest();
 
     public void deposit(double amount) {

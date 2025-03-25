@@ -11,6 +11,9 @@ public class BankCustomers extends BankAccount{
         super(account);
     }
 
+    public ArrayList<BankAccount> getAccountList() {
+        return accountList;
+    }
 
     public void addAccount(BankAccount account){
         accountList.add(account);
